@@ -1,7 +1,5 @@
 pipeline {
-    agent{
-        lable any     
-    }
+    agent any     
     stages{
         stage("Install Dependancies"){
             steps{
